@@ -69,11 +69,10 @@ h2{
 }
 
 button{
-    height:10%;
-    width:30%;
+    height:7%;
     border:1px solid #bbbbbb;
     border-radius:3px;
-    padding:2%;
+    padding:1%;
     color:#868686;
     font-weight: bold;
     margin: auto;
@@ -158,3 +157,4 @@ ul{
 footer{
     text-align: center;
 }
+
