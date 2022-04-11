@@ -1,0 +1,160 @@
+*{
+    font-family:'Montserrat', sans-serif;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color:#f4f4f4;
+}
+
+h1{
+    font-size:50px;
+}
+
+p{
+    color:#868686;
+}
+
+.grid p{
+    padding:10px;
+}
+
+.first{
+    background-image: url("../images/banner.jpg");
+    height:500px;
+    background-size: cover;
+}
+
+.image1{
+    background-image: url("../images/pic01.jpg");
+    height:300px;
+}
+
+.image2{
+    background-image: url("../images/pic02.jpg");
+    height:300px;
+}
+.image3{
+    background-image: url("../images/pic03.jpg");
+    height:300px;
+}
+.image4{
+    background-image: url("../images/pic04.jpg");
+    height:300px;}
+
+.image1 p,.image2 p,.image3 p,.image4 p{
+    color:white;
+    margin:auto;
+    padding-top:125px;
+    font-size:25px;
+    font-weight: bold;
+}
+
+.first p{
+    color:white;
+}
+
+.fa-gem{
+    border:1px solid black;
+    padding:3%;
+    border-radius:50%;
+    width:3%;
+    margin: auto;
+
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+button{
+    height:10%;
+    width:30%;
+    border:1px solid #bbbbbb;
+    border-radius:3px;
+    padding:2%;
+    color:#868686;
+    font-weight: bold;
+    margin: auto;
+}
+
+.flex{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+.flex>hr{
+    width:80%;
+}
+
+.grid,.end,.start{
+    width:70%;
+    margin:auto;
+}
+
+.start{
+    height:400px;
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom:5%;
+}
+
+.flex2{
+    display: flex;
+    flex-direction: column;
+    padding:100px;
+    text-align: center;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px 10px;
+    text-align: center;
+}
+
+.grid>div{
+    background-color: white;
+}
+
+.grid button{
+    margin-bottom:5%;
+}
+
+.grid>div>img{
+    width:100%;
+}
+
+.end{
+    margin-top: 5%;
+    margin-bottom:5%;
+    text-align: center;}
+
+footer>hr{
+    width:10%;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding:0px;
+}
+
+.social{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.social li{
+    margin: 15px;
+}
+
+footer{
+    text-align: center;
+}
